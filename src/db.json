@@ -1,0 +1,198 @@
+{
+  "userData": [
+    {
+      "userName": "Goran",
+      "password": "$2a$08$EUrUCWiG6s6999dlzI2IruJdip.FHHDGQeODrRozlWj2lpCqopvUq"
+    },
+    {
+      "userName": "Lara",
+      "password": "$2a$08$fGKeGhMJCpoof6USgkUXUeWMys5lpjh6PSh1fQS9iF6wg3NWPNYoi"
+    },
+    {
+      "userName": "ema",
+      "password": "$2a$08$CIipfoI8.CUGUluMe3873OW9Sq7vFRk7akCwueSckQ4B66wiAfUlW"
+    },
+    {
+      "userName": "Slavica",
+      "password": "$2a$08$tYz2/bLFJvdnEv/KCIHPl.cFGgFHVuKvKvKgKXe7wVjvSlx8AIIxm"
+    },
+    {
+      "userName": "Marie",
+      "password": "$2a$08$/8/Dcz9tXMQYE8db8AqJiuzPtQGW6U3puQPOwrDk5HNGBRnF0yxiu"
+    },
+    {
+      "userName": "Vanja",
+      "password": "$2a$08$p34RhYRNyP0Jq1yX68Sfy.lIkDlNaFYunb64JPrZvGA13qignVCmm"
+    }
+  ],
+  "channelData": [
+    {
+      "name": "Test 12323r23r",
+      "messages": [],
+      "private": true
+    },
+   
+    {
+      "name": "Goran",
+      "messages": [
+        {
+          "id": 4,
+          "message": "qefsaqfcas",
+          "timeCreated": "Wed Mar 08 2023 10:44:52",
+          "userName": "Goran"
+        },
+        {
+          "id": 3,
+          "message": "hi\n",
+          "timeCreated": "Wed Mar 08 2023 10:10:55",
+          "userName": "Goran"
+        },
+        {
+          "id": 2,
+          "message": "Hi what are you doing\n",
+          "timeCreated": "Wed Mar 08 2023 9:44:33",
+          "userName": "undefined"
+        },
+        {
+          "id": 1,
+          "message": "Hi",
+          "timeCreated": "Tue Mar 07 2023 14:42:56",
+          "userName": "Goran"
+        }
+      ],
+      "private": true
+    },
+    {
+      "name": "Test",
+      "messages": [
+        {
+          "id": 3,
+          "message": "ji",
+          "timeCreated": "Wed Mar 08 2023 10:23:3",
+          "userName": "Goran"
+        },
+        {
+          "id": 2,
+          "message": "hi\n",
+          "timeCreated": "Wed Mar 08 2023 10:15:0",
+          "userName": "Goran"
+        },
+        {
+          "id": 1,
+          "message": "new channel",
+          "timeCreated": "Tue Mar 07 2023 14:43:27",
+          "userName": "Goran"
+        }
+      ],
+      "private": true
+    },
+    {
+      "name": "Ana Marie",
+      "messages": [
+        {
+          "id": 2,
+          "message": "hi",
+          "timeCreated": "Wed Mar 08 2023 11:9:43",
+          "userName": "undefined"
+        },
+        {
+          "id": 1,
+          "message": "hello Marie",
+          "timeCreated": "Sat Mar 04 2023 19:55:37",
+          "userName": "Goran"
+        }
+      ],
+      "private": true
+    },
+    {
+      "name": "Public",
+      "messages": [
+        {
+          "id": 9,
+          "message": "dfblkhjdfb",
+          "timeCreated": "Wed Mar 08 2023 11:51:36",
+          "userName": "Guest"
+        },
+        {
+          "id": 8,
+          "message": "vsdfbvsdfbvsdf",
+          "timeCreated": "Wed Mar 08 2023 11:20:42",
+          "userName": "Marie"
+        },
+        {
+          "id": 7,
+          "message": "asdvsdvs",
+          "timeCreated": "Wed Mar 08 2023 10:36:48",
+          "userName": "Guest"
+        },
+        {
+          "id": 6,
+          "message": "dfghnbfsdgnbsf",
+          "timeCreated": "Wed Mar 08 2023 10:27:34",
+          "userName": "undefined"
+        },
+        {
+          "id": 5,
+          "message": "mjhgvkjhgv ",
+          "timeCreated": "Mon Mar 06 2023 14:6:8",
+          "userName": "Guest"
+        },
+        {
+          "id": 4,
+          "message": "dsfhlaskdjjshdölk asdkjhfg asöol öosadif sadöoih ösadlkjfh saölde  oöoisdf asödol iudyf sadlkfjhv sadökjlhv lksudhf asd",
+          "timeCreated": "Sat Mar 04 2023 20:2:36",
+          "userName": "Guest"
+        },
+        {
+          "id": 3,
+          "message": "hsdefhskdjvh sedjfhsadkfj slöadjfh sadlfkjasdhf sdjuhflsadkjfh sdölljsdhf   sdöfhjs dflökjhs lkjhd fölasdv",
+          "timeCreated": "Sat Mar 04 2023 20:0:35",
+          "userName": "Guest"
+        },
+        {
+          "id": 2,
+          "message": "Hej there",
+          "timeCreated": "Fri Mar 03 2023 22:29:50",
+          "userName": "Goran"
+        },
+        {
+          "id": 1,
+          "message": "hello",
+          "timeCreated": "Fri Mar 03 2023 22:29:18",
+          "userName": "Guest"
+        }
+      ],
+      "private": false
+    },
+    {
+      "name": "Private",
+      "messages": [
+        {
+          "id": 4,
+          "message": "k,jhgblkjhg",
+          "timeCreated": "Mon Mar 06 2023 14:7:1",
+          "userName": "Slavica"
+        },
+        {
+          "id": 3,
+          "message": "hgfvjhfg",
+          "timeCreated": "Mon Mar 06 2023 14:6:42",
+          "userName": "undefined"
+        },
+        {
+          "id": 2,
+          "message": "Hi, whats up",
+          "timeCreated": "Fri Mar 03 2023 22:30:17",
+          "userName": "Goran"
+        },
+        {
+          "id": 6,
+          "message": "Hello",
+          "timeCreated": "Fri Mar 03 2023 22:16:51",
+          "userName": "Slavica"
+        }
+      ],
+      "private": true
+    }
+  ]
+}

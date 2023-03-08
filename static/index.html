@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script type="module" src="script.js" defer></script>
+       
+        <title>Secure chat</title>
+    </head>
+    <body>
+        <header>
+            <h1>Chat App</h1>
+            <span class="name-output"></span>
+            <button id="btnLogout" class="invisible">Log out</button>
+
+            <form class="loginCreate-Form namePassword-form">
+                <div class="namePass-div">
+                    <div class="form-div">
+                        <label>Username:</label>
+                        <input id="inputUserName" type="text" required />
+                    </div>
+                    <div class="form-div">
+                        <label>Password:</label>
+                        <input id="inputPassword" type="password" required />
+                    </div>
+                    <input type="submit" id="btnLogin" value="Log in" />
+                    <input type="submit" id="btnSignUp" value="Sign up" />
+                </div>
+                <p id="error-login" class="invisible">
+                    Wrong username or password
+                </p>
+                <p id="error-signup" class="invisible">
+                    User name already taken
+                </p>
+            </form>
+        </header>
+
+        <main>
+            <div class="readWrite">
+                <div id="channelsContainer"></div>
+                <section class="createContainer invisible">
+                    <p class="error-channel invisible">
+                        Channel already exists
+                    </p>
+                    <form class="loginCreate-Form createChannelForm">
+                        <div class="createValues">
+                            <div class="form-div">
+                                <label>NEW channel:</label>
+                                <input
+                                    id="inputChannelName"
+                                    type="text"
+                                    required
+                                />
+                            </div>
+                            <label class="radioDiv">
+                                Private
+                                <input type="checkbox" id="Private" />
+                            </label>
+                        </div>
+                        <div>
+                            <input
+                                type="submit"
+                                id="btnCreateChannel"
+                                value="Create"
+                            />
+                        </div>
+                    </form>
+                </section>
+            </div>
+
+            <div class="readWrite">
+                <div id="chatContainer"></div>
+                <div class="new-message invisible">
+                    <span class="name-output invisible" ></span>
+                    <textarea
+                        id="inputMessage"
+                        name="type-message"
+                        cols="30"
+                        rows="2"
+                        placeholder=""
+                    ></textarea>
+                    <button id="send-message">Send</button>
+                </div>
+            </div>
+
+            <div class="editContainer invisible">
+                <textarea
+                    id="inputEdit"
+                    name="type-message"
+                    cols="30"
+                    rows="5"
+                    placeholder="Type your message..."
+                ></textarea>
+                <div>
+                    <button id="sendEdit">Send</button>
+                    <button id="closeEdit">Close</button>
+                </div>
+            </div>
+            
+            
+        </main>
+    </body>
+</html>
