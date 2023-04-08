@@ -36,11 +36,12 @@ async function signUp() {
 
 async function tryLogin() {
     let maybeLoggedIn = await loginUser();
+    
     if (!maybeLoggedIn) {
         forms.errorLogin.classList.remove('invisible');
     } else {
         localStorage.setItem(state.JWT_KEY, maybeLoggedIn.token);
-        state.loggedInUser = { userName: `${maybeLoggedIn.userName}` };
+        state.loggedInUser = { userName: `${maybeLoggedIn.user.userName}` };
         state.isLoggedIn = true;
         forms.errorLogin.classList.add('invisible');
         updateLoggedUI();
@@ -79,7 +80,7 @@ async function loginUser() {
   }
   
   async function trySignUp() {
-    const maybeSignedUp = await signUpUser();
+    const maybeSignedUp = await signUp();
   
     if (maybeSignedUp) {
       const maybeLoggedIn = await loginUser();
@@ -105,7 +106,7 @@ buttons.btnSendMessage.addEventListener('click', sendNewMessage);
 forms.submitForms.forEach((form) =>
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-
+        
         if (form.checkValidity() === false) {
             form.reportValidity();
             return;

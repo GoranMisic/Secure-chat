@@ -26,7 +26,8 @@ router.get('/', (req, res) => {
 });
 
 router.delete('/:id', async (req, res) => {
-  const { name: channelName, user, id } = req.body;
+  const { name: channelName, user } = req.body;
+  const id = Number(req.params.id);
 
   const maybeChannel = db.data.channelData.find(
     (channel) => channelName === channel.name
@@ -60,7 +61,8 @@ router.delete('/:id', async (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  const { name: channelName, user, message: newMessage, id } = req.body;
+  const { name: channelName, user, message: newMessage } = req.body;
+  const id = Number(req.params.id);
 
   const maybeChannel = db.data.channelData.find(
     (channel) => channelName === channel.name
