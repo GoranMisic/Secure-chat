@@ -7,8 +7,10 @@ import { db } from '../database.js';
 const router = express.Router();
 const salt = bcrypt.genSaltSync(8);
 
-function authenticateUser(userName, password) {
-    const match = db.data.userData.find((user) => user.userName === userName);
+function authenticateUser(userName, password) 
+{
+    const match = db.data.userData.find
+    ((user) => user.userName === userName);
 
     if (!match) {
         return false;
